@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7ff;
+  color: #111827;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, #eaf2ff 0%, #f7f9ff 60%, #edf7ff 100%);
+  color: #111827;
+}
+
+::selection {
+  background: #bfdbfe;
+  color: #111827;
+}
